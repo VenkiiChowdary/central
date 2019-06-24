@@ -1,2 +1,0 @@
-# central
-Started using GIT
