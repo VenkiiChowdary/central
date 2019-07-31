@@ -39,6 +39,11 @@
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.0.2</version>
         </plugin>
+	      <plugin>
+       <groupId>ord.codehaus.mojo</groupId>
+       <artifactId>sonar-maven-plugin</artifactId>
+       <version>3.6.0.1398</version>
+	</plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
@@ -72,10 +77,6 @@
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.8.5-SNAPSHOT</version>
-      <configuration>
-         <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
-         <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
-      </configuration>
       <executions>
        <execution>
          <id>jacoco-initialize</id>
