@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="jenkinstest.AppTest" time="0.115" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="jenkinstest.AppTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\venka\AppData\Local\Temp\surefire4829983934344405108\surefirebooter1503297744553898510.jar C:\Users\venka\AppData\Local\Temp\surefire4829983934344405108 2019-07-25T19-50-18_202-jvmRun1 surefire11024959761894883310tmp surefire_017719757984271108894tmp"/>
+    <property name="sun.java.command" value="C:\Users\venka\AppData\Local\Temp\surefire16800987642772453542\surefirebooter5495532691154480318.jar C:\Users\venka\AppData\Local\Temp\surefire16800987642772453542 2019-07-27T09-35-39_958-jvmRun1 surefire8873316593473738176tmp surefire_05441918412789282479tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\venka\jenkinstest\target\test-classes;C:\Users\venka\jenkinstest\target\classes;C:\Users\venka\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\venka\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\venka\AppData\Local\Temp\surefire4829983934344405108\surefirebooter1503297744553898510.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\venka\AppData\Local\Temp\surefire16800987642772453542\surefirebooter5495532691154480318.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -51,12 +51,12 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\jdk-12.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Program Files\jdk-12.0.1\bin;C:\apache-maven-3.6.1\;C:\apache-maven-3.6.1\bin;C:\Windows\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\jdk-12.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Program Files\jdk-12.0.1\bin;C:\apache-maven-3.6.1\;C:\apache-maven-3.6.1\bin;C:\Windows\system32;C:\Program Files\jdk-12.0.1\bin;C:\apache-maven-3.6.1\;C:\apache-maven-3.6.1\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="12.0.1+12"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="jenkinstest.AppTest" time="0.005"/>
+  <testcase name="shouldAnswerWithTrue" classname="jenkinstest.AppTest" time="0.001"/>
 </testsuite>
